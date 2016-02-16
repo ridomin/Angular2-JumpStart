@@ -4,7 +4,7 @@ The goal of this jumpstart app is to provide
 a simple way to get started with Angular 2 while also showing several key Angular 2 features. The sample
 relies on System.js to load TypeScript modules and the required scripts used in the application.
 
-The sample is based on Angular 2 Beta 1.
+The sample is based on Angular 2 Beta 6.
 
 Simply clone the project or download and extract the .zip to get started. Here are a few
 screenshots from the app:
@@ -35,8 +35,6 @@ screenshots from the app:
 ## Running the Application
 
 1. Run `npm install` to install app dependencies
-
-1. Run `npm run tsc` to start the TypeScript compiler (it will watch for changes to .ts files)
 
 1. Run `npm start` in a separate terminal window to start the server and launch the app
 
