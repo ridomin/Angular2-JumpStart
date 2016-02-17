@@ -27,7 +27,7 @@ System.register(['angular2/core', 'angular2/http', 'rxjs/Observable', 'rxjs/add/
             DataService = (function () {
                 function DataService(http) {
                     this.http = http;
-                    this.baseUrl = '/src';
+                    this.baseUrl = './src/';
                 }
                 DataService.prototype.getCustomers = function () {
                     return this.http.get(this.baseUrl + '/customers.json')
