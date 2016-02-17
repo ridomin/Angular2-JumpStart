@@ -10,7 +10,7 @@ import 'rxjs/add/operator/catch';
 @Injectable()
 export class DataService {
   
-    baseUrl: string = '/src';
+    baseUrl: string = '/';
 
     constructor(private http: Http) { }
     

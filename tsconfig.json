@@ -12,6 +12,9 @@
   },
   "exclude": [
     "node_modules",
+    "www/lib",
+    "typings",
+    "platforms",
     "typings/main",
     "typings/main.d.ts"
   ]
